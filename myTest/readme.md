@@ -1,3 +1,7 @@
+Disclaimer:
+Examples to be used as reference.
+Many examples employ deterministic seeds, hashes and other entities that would otherwise be random or different in real usage.
+Use discretion whereever necessary.
 
 
 Index

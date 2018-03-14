@@ -6,8 +6,11 @@ var bitcoin = require('../')
 var dhttp = require('dhttp/200')
 
 
+// Use a random number generator with 32 characters
+// http://numbergenerator.org/random-32-digit-number-generator
+
 // deterministic RNG for testing only
-function rng () { return Buffer.from('16134252776797180580576810839293') }
+function rng () { return Buffer.from('HelloWorldHelloWorldHelloWorldXD') }
 
 var keyPair = bitcoin.ECPair.makeRandom({ rng: rng })
     var address = keyPair.getAddress()

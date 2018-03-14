@@ -13,3 +13,7 @@ var pubKeys = [
    var redeemScript = bitcoin.script.multisig.output.encode(2, pubKeys) // 2 of 3
    var scriptPubKey = bitcoin.script.scriptHash.output.encode(bitcoin.crypto.hash160(redeemScript))
    var address = bitcoin.address.fromOutputScript(scriptPubKey)
+
+console.log(redeemScript)
+console.log(scriptPubKey)
+console.log("Multisignature Address: " + address);

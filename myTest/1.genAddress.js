@@ -16,4 +16,3 @@ var keyPair = bitcoin.ECPair.makeRandom({ rng: rng })
 var address = keyPair.getAddress()
 var pubkey = keyPair.pubkey
 console.log('PrivateKey in WIF format: '+keyPair.toWIF() +'\n' +'Bitcoin Address:'+address)
-console.log()

@@ -16,4 +16,6 @@ var pubKeys = [
 
 console.log(redeemScript)
 console.log(scriptPubKey)
+
+
 console.log("Multisignature Address: " + address);

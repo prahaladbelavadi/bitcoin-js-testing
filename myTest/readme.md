@@ -4,17 +4,21 @@ Many examples employ deterministic seeds, hashes and other entities that would o
 Use discretion whereever necessary.
 
 
-Index
+### Index
+1. address operations:
+  - genaddress
+  - genAddressfrom sha256
+  - import keypair via WIF
+  - 2-3 multisignature pay2 script hash
 
-      genaddress
-
-      genAddressfrom sha256
-
-      import keypair via WIF
-
-      2-3 multisignature pay2 script hash
+  - Todo:
+  - need to add segwit stuuf
+  - need to change directory from where dependency modules are imported
+2. transactions:
+  -
 
 
-      todo: need to add segwit stuuf
 
-continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/addresses.js#L50)
+
+
+  continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/addresses.js#L50)

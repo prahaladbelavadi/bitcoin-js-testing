@@ -15,8 +15,10 @@ Use discretion whereever necessary.
   - need to add segwit stuuf
   - need to change directory from where dependency modules are imported
 2. transactions:
-  -
+  - generate transaction, convert to hex and keep ready for broadcast to bitcoin network
 
+  - Todo:
+  - can add input and output prompts later
 
 
 

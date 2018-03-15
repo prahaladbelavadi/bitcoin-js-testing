@@ -18,3 +18,7 @@ txb.addOutput('1cMh228HTCiwS8ZsaakH8A8wze1JR5ZsP', 12000)
 // (in)15000 - (out)12000 = (fee)3000, this is the miner fee
 
 txb.sign(0, alice)
+// Alice to sign her transaction
+
+// convert transaction to hex and prepare to broadcast it to bitcoin network
+console.log( 'Transaction to be broadcasted to Bitcoin network in hex format :'+'\n'+txb.build().toHex())

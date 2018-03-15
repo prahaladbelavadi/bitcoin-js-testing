@@ -14,13 +14,13 @@ Use discretion whereever necessary.
   - Todo:
   - need to add segwit stuuf
   - need to change directory from where dependency modules are imported
+  - continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/addresses.js#L50)
+
 2. transactions:
   - generate transaction, convert to hex and keep ready for broadcast to bitcoin network
+  - Generate broadcast ready bitcoin 2-2 multisig transaction
 
   - Todo:
   - can add input and output prompts later
-
-
-
-
-  continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/addresses.js#L50)
+  - Write documentation for individual understanding
+  - continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/transactions.js#L45)

@@ -1,6 +1,6 @@
 var assert = require('assert')
 var bigi = require('bigi')
-var bitcoin = require('../')
+var bitcoin = require('../..')
 var dhttp = require('dhttp/200')
 
 
@@ -17,5 +17,8 @@ var pubKeys = [
 console.log(redeemScript)
 console.log(scriptPubKey)
 
-
+console.log("List of Public keys used for multisig:"+'\n')
+for(var i = 0;i<pubKeys.length;i++){
+  console.log("Address", i + ": ",pubKeys[i].toString('hex'));
+}
 console.log("Multisignature Address: " + address);

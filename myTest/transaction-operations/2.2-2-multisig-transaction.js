@@ -1,6 +1,6 @@
 var assert = require('assert')
-var bitcoin = require('../')
-var regtestUtils = require('./_regtest')
+var bitcoin = require('../../')
+var regtestUtils = require('./../_regtest')
 var regtest = regtestUtils.network
 
 // Random generator

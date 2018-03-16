@@ -31,3 +31,8 @@ Use discretion whereever necessary.
   - refuses to log hex digest
   - does not execute complete script
   - breaks somewhere after printing the addresses but before the transaction builder
+
+
+**References:**
+- broadcast transaction to mining pools [here](https://blockchain.info/pushtx)
+- decode a transaction [here](https://blockchain.info/decode-tx)

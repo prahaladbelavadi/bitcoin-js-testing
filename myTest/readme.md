@@ -23,4 +23,15 @@ Use discretion whereever necessary.
   - Todo:
   - can add input and output prompts later
   - Write documentation for individual understanding
-  - continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/transactions.js#L45)
+  - continue from
+
+
+
+*Problems encountered*
+- 3rd create and broadcast transaction not working
+  - refuses to log hex digest
+  - does not execute complete script
+  - breaks somewhere after printing the addresses but before the transaction builder
+
+
+   [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/transactions.js#L45)

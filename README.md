@@ -1,9 +1,14 @@
-# BitcoinJS (bitcoinjs-lib)
+# BitcoinJS (bitcoinjs-lib) V: @prahaladbelavadi
 [![Build Status](https://travis-ci.org/bitcoinjs/bitcoinjs-lib.png?branch=master)](https://travis-ci.org/bitcoinjs/bitcoinjs-lib)
 [![NPM](https://img.shields.io/npm/v/bitcoinjs-lib.svg)](https://www.npmjs.org/package/bitcoinjs-lib)
 [![tip for next commit](https://tip4commit.com/projects/735.svg)](http://tip4commit.com/projects/735)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
+# Do not use in Production;
+### Refer to [BitcoinJS](https://github.com/bitcoinjs/bitcoinjs-lib) !
+
+----
 
 The pure JavaScript Bitcoin library for node.js and browsers.
 Estimated to be in use by over 15 million wallet users and is the backbone for almost all Bitcoin web wallets in production today.

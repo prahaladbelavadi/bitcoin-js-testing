@@ -15,3 +15,7 @@ var node = bitcoin.HDNode.fromSeedBuffer(seed)
 console.log("Obtain xpriv key:",node.toBase58());
 
 console.log("Bitcoin address:",node.getAddress());
+// export to wif format
+var WIF = node.keyPair.toWIF()
+
+console.log("Xpriv key in WIF format:",WIF);

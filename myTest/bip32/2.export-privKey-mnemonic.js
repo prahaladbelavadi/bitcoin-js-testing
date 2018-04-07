@@ -14,14 +14,4 @@ console.log("Seed:",seed.toString("Hex"));
 var node = bitcoin.HDNode.fromSeedBuffer(seed)
 console.log("Obtain xpriv key:",node.toBase58());
 
-var string = node.toBase58()
-console.log("Bitcoin HD node from Seed Buffer in Base 58:",string);
-
-var restored = bitcoin.HDNode.fromBase58(string)
-console.log("Restored from HDnode:",restored.toBase58());
-
-if (restored.toBase58() == node.toBase58()) {
-  console.log("Everything works!");
-}else{
-  console.error("Something's wrong!");
-}
+console.log("Bitcoin address:",node.getAddress());

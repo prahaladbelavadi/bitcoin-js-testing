@@ -17,6 +17,8 @@ txb.addInput('61d520ccb74288c96bc1a2b20ea1c0d5a704776dd0164a396efec3ea7040349d',
 txb.addOutput('1cMh228HTCiwS8ZsaakH8A8wze1JR5ZsP', 12000)
 // (in)15000 - (out)12000 = (fee)3000, this is the miner fee
 
+// console.log(txb);
+
 txb.sign(0, alice)
 // Alice to sign her transaction
 

@@ -1,6 +1,5 @@
 // Dislpays block height
 
-var assert = require('assert')
 var bitcoin = require('../..')
 
     // from 00000000000000000097669cdca131f24d40c4cc7d80eaa65967a2d09acf6ce6

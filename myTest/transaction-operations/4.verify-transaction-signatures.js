@@ -1,5 +1,4 @@
 // can verify Transaction signatures
-var assert = require('assert')
 var bitcoin = require('../..')
 var regtestUtils = require('./../_regtest')
 var regtest = regtestUtils.network
@@ -29,6 +28,4 @@ console.log("Hash:",hash.toString('hex'))
 
 console.log("Has",keyPair.getPublicKeyBuffer().toString('hex'),"signed this transaction:",keyPair.verify(hash, ss.signature),"\n")
 
-    assert.strictEqual(scriptSig.pubKey.toString('hex'), keyPair.getPublicKeyBuffer().toString('hex'))
-    assert.strictEqual(keyPair.verify(hash, ss.signature), true);
   });

@@ -9,7 +9,7 @@ var dhttp = require('dhttp/200')
 // http://numbergenerator.org/random-32-digit-number-generator
 
 // deterministic RNG for testing only
-function rng () { return Buffer.from('HelloWorldHelloWorldHelloWorldXD') }
+function rng () { return Buffer.from('HelloWorldHelloWsrldHelloWorldXD') }
 
 var keyPair = bitcoin.ECPair.makeRandom({ rng: rng })
 var address = keyPair.getAddress()

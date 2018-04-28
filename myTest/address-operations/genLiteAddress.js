@@ -1,6 +1,5 @@
-var assert = require('assert')
 var bigi = require('bigi')
-var bitcoin = require('../')
+var bitcoin = require('../../')
 var dhttp = require('dhttp/200')
 
 function rng () { return Buffer.from('HelloWorldHelloWorldHelloWorldXD') }

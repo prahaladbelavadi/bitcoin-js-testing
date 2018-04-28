@@ -1,5 +1,5 @@
 var bigi = require('bigi')
-var bitcoin = require('../')
+var bitcoin = require('../../')
 var dhttp = require('dhttp/200')
 
 
@@ -11,4 +11,4 @@ var testnet = bitcoin.networks.testnet
     var address = keyPair.getAddress()
 
 console.error("Not a Main-net Address!"+"\n"+"Do not send main net funds")
-console.log("WIF for Testnet address: "+wif +'\n'+ "Testnet Address" +address)
+console.log("WIF for Testnet address: "+ wif +'\n'+ "Testnet Address: " +address)

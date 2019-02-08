@@ -1,7 +1,6 @@
 // can export a BIP32 xpriv, then import it
 
 
-var assert = require('assert')
 var bip39 = require('bip39')
 var bitcoin = require('../../')
 

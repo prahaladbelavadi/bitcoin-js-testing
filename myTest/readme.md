@@ -14,7 +14,7 @@ Use discretion whereever necessary.
 	* [Generate Litecoin address](./address-operations/genLiteAddress.js)
 	* [Generate Testnet address](./address-operations/genTestnetaddres.js)
   
-	2. BIP 32 (Bitcoin Improvement Proposal 32)](./bip32/)
+2. BIP 32 (Bitcoin Improvement Proposal 32)](./bip32/)
 	* [Export xpriv key as wallet interchange format](./bip32/1.export-xPrivKey-WIF.js)
 	* [Export xpriv key as mnemonic](./bip32/2.export-privKey-mnemonic.js)
 	* [Export xpubkey of xpriv key derived using mnemonic](./bip32/3.export-xpubKey-mnemonic.js)

@@ -14,7 +14,7 @@ Use discretion whereever necessary.
 	* [Generate Litecoin address](./address-operations/genLiteAddress.js)
 	* [Generate Testnet address](./address-operations/genTestnetaddres.js)
   
-2. BIP 32 (Bitcoin Improvement Proposal 32)](./bip32/)
+2. [BIP 32 (Bitcoin Improvement Proposal 32)](./bip32/)
 	* [Export xpriv key as wallet interchange format](./bip32/1.export-xPrivKey-WIF.js)
 	* [Export xpriv key as mnemonic](./bip32/2.export-privKey-mnemonic.js)
 	* [Export xpubkey of xpriv key derived using mnemonic](./bip32/3.export-xpubKey-mnemonic.js)
@@ -22,30 +22,12 @@ Use discretion whereever necessary.
 	* [Derive BIP 44 hardened keys from path](./bip32/5.derive-BIP44-hardenedKey-from-path.js)
 	* [Generate BIP 32 addresses (HD wallets) using BIP 39 (Mnemonic)](./bip32/6.generate-bip32-addresses-usin-BIP39.js)
   
-3. 
+3. [Blocks](./blocks/)
+	* [Query Block from node](./blocks/blocks.js)
 
-  - Todo:
-  - need to add segwit stuff
-  - need to change directory from where dependency modules are imported
-  - continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/addresses.js#L50)
+4. [Transactions](./transaction-operations/)
+	* [Create and sign P2PKH](./transaction-operations/1.transaction.js)
+	* [Create and sign a 2 - 2 Multisig P2SH transaction](./transaction-operations/2.2-2-multisig-transaction.js)\
+	* [Verify Transaction Signature](./transaction-operations/3.create-and-broadcast-3PBP-transaction.js)
 
-2. transactions:
-  - generate transaction, convert to hex and keep ready for broadcast to bitcoin network
-  - Generate broadcast ready bitcoin 2-2 multisig transaction
-
-  - Todo:
-  - can add input and output prompts later
-  - Write documentation for individual understanding
-  - continue from [here](https://github.com/bitcoinjs/bitcoinjs-lib/blob/5b0ccb6f68ed9189dc3e382d78e108046974910f/test/integration/transactions.js#L45)
-
-
-*Problems encountered*
-- 3rd create and broadcast transaction not working
-  - refuses to log hex digest
-  - does not execute complete script
-  - breaks somewhere after printing the addresses but before the transaction builder
-
-
-**References:**
-- broadcast transaction to mining pools [here](https://blockchain.info/pushtx)
-- decode a transaction [here](https://blockchain.info/decode-tx)
+****

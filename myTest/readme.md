@@ -5,13 +5,14 @@ Use discretion whereever necessary.
 
 
 ### Index
+
 1. [Address operations:](./address-operations)
-  1 [Generate Address](./1.genAddress.js)
-  2 [Generate Address from a SHA256 Hash](./2.genAddress-fromSHA256-Hash.js)
-  3 [Import Keypair (Private Key) using WIF](./3.import-Keypair-Via-WIF.js)
-  4 [2-3 Multisignature P2SH (Pay-to-Script Hash)](./4.2-3-multisig-p2sh-address.js)
-  5 [Generate Litecoin address](./genLiteAddress.js)
-  6 [Generate Testnet address](./genTestnetaddres.js)
+	* [Generate Address](./1.genAddress.js)
+	* [Generate Address from a SHA256 Hash](./2.genAddress-fromSHA256-Hash.js)
+	* [Import Keypair (Private Key) using WIF](./3.import-Keypair-Via-WIF.js)
+	* [2-3 Multisignature P2SH (Pay-to-Script Hash)](./4.2-3-multisig-p2sh-address.js)
+	* [Generate Litecoin address](./genLiteAddress.js)
+	* [Generate Testnet address](./genTestnetaddres.js)
   
 2. BIP 32 (Bitcoin Improvement Proposal 32)](./)
   - Export
